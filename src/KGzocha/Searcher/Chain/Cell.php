@@ -37,7 +37,8 @@ class Cell implements CellInterface
         SearcherInterface $searcher,
         TransformerInterface $transformer,
         $name = null
-    ) {
+    ) 
+    {
         $this->searcher = $searcher;
         $this->transformer = $transformer;
         $this->name = $name;
